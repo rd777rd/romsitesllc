@@ -1,6 +1,19 @@
+@media (max-width: 1440px) {
+    .portfolio_container {
+        display:flex;
+        flex-wrap:wrap;
+        jutify-content:space-between;
+    }
+}
 @media (max-width: 1120px) {
     .agency_section .agency_container .box {
         width: 70%;
+    }
+}
+    .portfolio_container {
+        display:flex;
+        flex-wrap:wrap;
+        jutify-content:space-between;
     }
 }
 
@@ -143,6 +156,7 @@
         padding: 25px 0;
 
     }
+
 }
 
 @media (max-width: 480px) {
@@ -159,8 +173,20 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
     .container {
-        max-width: 1170px;
+        max-width: 1000px;
+    }
+    .service_section .img-container .img-box img {
+        width:400px;
+        height:400px;
+    }
+    @media(min-width:1200) {
+        .container {
+        max-width: 1200px;
+    }
+    .service_section .img-container .img-box img {
+        width:400px;
+        height:400px;
     }
 }

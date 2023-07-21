@@ -167,130 +167,28 @@ a:focus {
 /*end header section*/
 .maininfo
  {
-  padding: 10px 10px;
-  width:100%;
-  height:30%;
+  padding: 0px 0px;
+  width:full-width;
   display:block;
-  background-color: white;
+  background-color: black;
   margin-bottom: 10px;
+  align-self: center;
 }
 .maininfo-au-og
 {
+  width:full-width;
   background-color: black;
   display:inline-block;
 }
-/*.maininfo .service_section {
-  display:inline-block;
-  width:50%;
-  height:30%;
-  float:left;
-}
-
-.main-info .service_section .heading_container {
-  margin-top: 0px;
-  color:#ffcf00;
-}
-.maininfo .service_section .row {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.maininfo .service_section .detail-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border: none;
-  margin-top:20px;
-}
-
-.maininfo .service_section .detail-container .detail-box {
-  text-align: center;
-  text-transform: uppercase;
-  min-width: 100px;
-  height: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0px;
-}
-.maininfo .service_section.detail-contianer .detail-box #img1-tab
-{
-  background-image: url(../images/wd.jpg);
-}
-.maininfo .service_section.detail-contianer .detail-box #img2-tab
-{
-  background-image: url(../images/wm.jpg);
-}
-.maininfo .service_section.detail-contianer .detail-box #img3-tab
-{
-  background-image: url(../images/seo.jpg);
-}
-
-.maininfo .service_section .detail-container .detail-box:hover, .service_section .detail-container .detail-box.active {
-  background-color: transparent;
-  cursor: pointer;
-} */
-.about_container
-{
-display:inline-block;
-width:47%;
-height:100%;
-background-color: black;
-padding-left:10px;
-margin-right: 5px;
-}
-.maininfo h2
-{
-color:#ffcf00;
-}
-.about_container h2
-{
-text-align: left;
-text-align: center;
-}
-.maininfo .about_info
-{
-background-color: black;
-}
-.maininfo .about_info p
-{
-color: white;
-text-align: center;
-}
-
-.our_goal
-{
-display:block;
-width:47%;
-float:right;
-align-text:right;
-background-color: black;
-padding-right:10px;
-
-}
-{
-color:#ffcf00;
-}
-.maininfo h2
+.maininfo-au-og h2
 {
 text-align:center;
+font-weight: bold;
 }
-.maininfo .goal_info p
+.maininfo-au-og p
 {
-color:white;
-text-align: center;
+  text-align:center;
+  font-weight: !important;
 }
 .portfolio_section
 {
@@ -544,27 +442,24 @@ text-align: center;
 .logo_section .owl-carousel .owl-dots {
   display: none;
 }
-
-.started_section .container {
-  width:100%;
-  background-color: #ffcf00;
-  padding-bottom: 20px;
-  display:inline-block;
-  margin-top:10px;
+.started_section {
+  dislay:block;
+  width: 100%;
+  height:10%;
+ align-self:center;
+ background-color: #ffcf00;
+  padding-bottom: 10px;
+  margin:0px 0px;
 }
 
-.started_section .row {
-  width:100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-          background-color: #ffcf00;
+.started_section .container {
+  background-color: #ffcf00;
+  padding-bottom: 10px;
+  display:inline-block;
+  margin:10px 0px;
 }
 
 .started_section .heading_container {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   color:#000000;
 }
 
@@ -575,7 +470,7 @@ text-align: center;
 }
 .started_section .heading_container p
 {
-  color:black;
+  color:white;
 }
 
 .started_section .btn-box {
@@ -807,16 +702,16 @@ text-align: center;
   background-color: white;
   margin-bottom: 20px;
   margin-top:20px;
-  padding:10px 10px;
+  padding:3px 3px;
 }
 .service_section_page .container
 {
   background-color: black;
-  padding: 10px 10px;
+  padding: 3px 3px;
 }
 .service_section_page .heading_container
 {
-  
+font-weight: bold;
 }
 .service_section_page .services-list
 {
@@ -837,32 +732,36 @@ text-transform: uppercase;
 {
 text-decoration: none;
   color:#ffcf00;
+  font-weight: bold;
 }
 .service-wd a:hover
 {
   color:white;
   text-decoration: underline;
+  text-transform: lowercase;
 }
-.service-seo
+.service-lp
 {
 display:block;
   text-align: center;
   margin:10px 10px;
 }
-.service-seo h1
+.service-lp h1
 {
 color:#ffcf00;
 text-transform: uppercase;
 }
-.service-seo a
+.service-lp a
 {
   text-decoration: none;
   color:#ffcf00;
+  font-weight: bold;
 }
-.service-seo a:hover
+.service-lp a:hover
 {
   color:white;
   text-decoration: underline;
+    text-transform: lowercase;
 }
 .service-wm
 {
@@ -879,11 +778,13 @@ text-transform: uppercase;
 {
 text-decoration: none;
   color:#ffcf00;
+  font-weight: bold;
 }
 .service-wm a:hover
 {
   color:white;
   text-decoration: underline;
+    text-transform: lowercase;
 }
 /*website design page*/
 .hirewd
@@ -918,16 +819,12 @@ text-decoration: none;
   width:85%;
   height:85%;
 }
-.wdprocess{
-  display:block;
-  padding:20px 20px 20px 20px;
-  background-color: white;
-}
 .wdprocess1
 {
   display:inline-block;
   background-color: black;
   padding:10px 10px 10px 10px;
+  margin-bottom: 10px;
 }
 .wdprocess1 h3
 {
@@ -935,12 +832,6 @@ text-align: center;
 color:#ffcf00;
 font-size:2em;
 font-weight: bold;
-}
-.wdprocess1 #wdprocessdes
-{
-  text-align: center;
-  color:white;
-  font-size:1.25em;
 }
 .wdprocess1 h4
 {
@@ -953,7 +844,7 @@ font-size: 1.75em;
 }
 .wdprocess1 p
 {
-  display:inline-block;
+  display:block;
   text-align:center;
   font-size:1.10em;
 
@@ -1027,10 +918,13 @@ background-color: black;
 .needseotxt h1
 {
   font-size:2em;
+  font-weight: bold;
+  color: white;
 }
 .needseotxt p
 {
   font-size:1em;
+  font-weight: bold;
 }
 .seoprocess-whyus
 {
@@ -1048,6 +942,12 @@ background-color: black;
 {
   display:inline-block;
   text-align:center;
+  font-weight: bold;
+}
+.seoprocesstxt h2
+{
+  font-weight: bold;
+  font-size: 2em;
 }
 .seowhyuscontainer
 {
@@ -1060,6 +960,12 @@ background-color: black;
 {
   display:inline-block;
   text-align:center;
+  font-weight: bold;
+}
+.seowhyustxt h2
+{
+  font-size:2em;
+  font-weight: bold;
 }
 .seoprice
 {
@@ -1075,40 +981,66 @@ background-color: black;
 }
 .seopricetxt{
   display:inline-block;
+  padding-left:15px;
 
+}
+.seopricetxt h1
+{
+text-align: center;
+font-size:4em;
+font-weight: bold;
+color: black;
+}
+.seopricetxt h2{
+  font-size: 2em;
+  color:black;
+  font-weight: bold;
+}
+.seopricetxt p
+{
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
 }
 /* website maint. section*/
 .wm1
 {
   display:block;
   height:10%;
-  margin:15px 15px; 
+  margin:15px 0px; 
 }
 .wm1-txt h3
 {
   text-align: center;
   font-size: 2em;
+  color:#ffcf00;
 }
 .wm2
 {
   display:block;
-  margin:5px 20px;
   width:100%;
+  height:100%;
 }
 .wm2-1
 {
   display:block;
   background-color: black;
-  width:90%;
-  height:90%;
   text-align: center;
+}
+.wm2-1 h1
+{
+  color:#ffcf00;
+  font-size:1.5em;
 }
 .wm-wi-wu
 {
   display:block;
   width:100%;
   height:30%;
-  margin:20px 20px;
+  padding:10px 10px;
+  border: 5px solid #ffcf00;
+  background-color: white;
+
 }
 .wm-wi
 {
@@ -1117,15 +1049,53 @@ background-color: black;
   vertical-align: top;
   margin-right:20px;
 }
+.wm-wi h1
+{
+  color:#ffcf00;
+  font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.wm-wi p
+{
+  font-size:1em;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+}
 .wm-wu
 {
 display:inline-block;
   width:45%;
 }
+.wm-wu h1
+{
+  color:#ffcf00;
+  font-size:1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.wm-wu p
+{
+  font-size:1em;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+}
 .wm-price
 {
   display:block;
   margin:20px 20px;
+  border:5px solid #ffcf00;
+}
+.wm-price h1
+{
+  color:#ffcf00;
+  font-size:2em;
+  text-align:left;
+    font-weight: bold;
+    text-align: center;
 }
 /* info section */
 .info_section {

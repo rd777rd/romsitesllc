@@ -805,8 +805,18 @@ text-decoration: none;
 }
 .bbs
 {
-  background-color:#ffcf00;
+  background-color:#000;
   color:#ffffff;
+}
+.bbs :hover
+{
+  background-color:#000;
+  color:#ffcf00;
+}
+.bbs :active
+{
+  background-color:#000;
+  color:#ffcf00;
 }
 .wdprocess1
 {

@@ -202,6 +202,10 @@ font-weight: bold;
   text-align:center;
   font-weight: !important;
 }
+.main-buy h1
+{
+  color:#ffcf00;
+}
 .mbb
 {
   background-color:#ffcf00;

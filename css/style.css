@@ -169,7 +169,7 @@ a:focus {
 }
 
 /*end header section*/
-.maininfo
+/* .maininfo
  {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,6 +201,10 @@ font-weight: bold;
 {
   text-align:center;
   font-weight: !important;
+} */
+.maininfo h1
+{
+  color:#ffcf00
 }
 .main-buy h1
 {

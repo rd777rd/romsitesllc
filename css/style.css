@@ -240,7 +240,9 @@ font-weight: bold;
   max-width: 100%;
   text-align: center;
 }
-
+.portfolio_section h1 {
+  color:#ffcf00
+  }
 .portfolio_section .portfolio_container {
   display: -webkit-box;
   display: -ms-flexbox;

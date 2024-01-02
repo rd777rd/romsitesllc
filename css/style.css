@@ -213,7 +213,7 @@ font-weight: bold;
 } */
 .maininfo h1
 {
-  color:#ffcf00
+  color:#ffcf00;
 }
 .main-buy h1
 {
@@ -241,7 +241,10 @@ font-weight: bold;
   text-align: center;
 }
 .portfolio_section h1 {
-  color:#ffcf00
+  color:#ffcf00;
+  }
+.portfolio_section span {
+  color:#fff;
   }
 .portfolio_section .portfolio_container {
   display: -webkit-box;

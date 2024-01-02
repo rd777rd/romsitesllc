@@ -8,9 +8,18 @@ body {
   display:block;
   text-align: center;
 }
-h2{
+h1 {
   color:#ffcf00;
+  font-weight:700;
 }
+h2 {
+  color:#ffcf00;
+  font-weight:700;
+}
+p {
+  font-weight:400;
+  }
+
 
 .layout_padding {
   padding-top: 120px;

@@ -72,7 +72,7 @@ p {
 }
 
 /*header section*/
-.hero_area.sub_pages {
+.hero_area  {
   height: 10%;
 }
 
@@ -97,6 +97,7 @@ p {
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
   background-color: #ffcf00;
   color: #ffffff;
+  height: 100vh;
 }
 
 a,

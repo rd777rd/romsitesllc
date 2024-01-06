@@ -154,7 +154,8 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 300px;
+  float: left;
+  
 }
 
 .custom_nav-container {

@@ -79,6 +79,8 @@ p {
 .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
+  align-items: center;
+  text-align:center;
 }
 
 .header_section .nav_container {

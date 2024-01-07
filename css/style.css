@@ -8,6 +8,20 @@ body {
   display:block;
   text-align: center;
 }
+.fs1
+ {
+  font-size: 3rem;
+  }
+  
+.fs2
+{
+  font-size:2rem;
+  }
+  
+.fs3
+{
+  font-size:1rem;
+  #
 h1 {
   color:#ffcf00;
   font-weight:700;

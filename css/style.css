@@ -157,6 +157,10 @@ p {
   width:300px;
 
  }
+.navbar-item a {
+  font-size: 3em(
+  }
+  
 
  .custom_nav-container {
    z-index: 99999;

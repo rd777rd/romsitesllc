@@ -465,13 +465,13 @@ font-weight: bold;
   display:block;
   width: 100%;
  align-self:center;
- background-color: #ffcf00;
+ background-color: #fff;
   padding-bottom: 10px;
   margin:0px 0px;
 }
 
 .started_section .container {
-  background-color: #ffcf00;
+  background-color: #fff;
   display:inline-block;
   margin:10px 0px;
 }
@@ -490,7 +490,7 @@ font-weight: bold;
   }
 .started_section .heading_container p
 {
-  color:white;
+  color:#000;
 }
 
 .started_section .btn-box {

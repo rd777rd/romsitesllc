@@ -471,7 +471,7 @@ font-weight: bold;
 }
 
 .started_section .container {
-  background-color: #fff;
+  background-color: #ffcf00;
   display:inline-block;
   margin:10px 0px;
 }
@@ -513,8 +513,8 @@ font-weight: bold;
 }
 
 .started_section .btn-box a:hover {
-  background-color: #ffcf00;
-  color: #000000;
+  background-color: #000;
+  color: #fff;
 }
 
 .agency_section .agency_container {

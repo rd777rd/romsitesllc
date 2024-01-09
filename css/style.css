@@ -63,7 +63,7 @@ p {
  .heading_container h1 {
    text-transform: uppercase;
    font-weight: bold;
-   color:#ffcf00;
+  font-size:2.3rem;
  }
 
  .heading_container h1 span {

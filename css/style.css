@@ -516,12 +516,6 @@ font-weight: bold;
   background-color: #000;
   color: #fff;
 }
-.ahs{
-  font-size:2.3rem;
-}
-.aps{
-  font-size:1.5rem;
-}
 .agency_section .agency_container {
   background-image: url(../images/agency-img.jpg);
   background-size: cover;
@@ -853,8 +847,7 @@ text-decoration: none;
 {
   font-size:2.3rem;
 }
-.wdc
-{
+.wdc{
   color:#ffcf00;
 }
 .ctc

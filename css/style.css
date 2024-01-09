@@ -8,20 +8,6 @@ body {
   display:block;
   text-align: center;
 }
-.fs1
- {
-  font-size: 3rem;
-  }
-  
-.fs2
-{
-  font-size:2rem;
-  }
-  
-.fs3
-{
-  font-size:1rem;
-  }
 h1 {
   color:#ffcf00;
   font-weight:700;
@@ -272,7 +258,7 @@ font-weight: bold;
   color:#fff;
   }
   .portfolio_section p{ 
-    font-size:1.5rem;
+    font-size:1.9rem;
 .portfolio_section .portfolio_container {
   display: -webkit-box;
   display: -ms-flexbox;

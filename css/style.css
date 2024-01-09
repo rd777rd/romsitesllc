@@ -63,7 +63,6 @@ p {
  .heading_container h1 {
    text-transform: uppercase;
    font-weight: bold;
-  font-size:2.3rem;
  }
 
  .heading_container h1 span {
@@ -476,7 +475,7 @@ font-weight: bold;
 }
 
 .started_section .heading_container {
-  color:#000000;
+  
 }
 
 .started_section .heading_container h1 {
@@ -521,7 +520,7 @@ font-weight: bold;
   font-size:2.3rem;
 }
 .aps{
-  font-size:1.5rem
+  font-size:1.5rem;
 }
 .agency_section .agency_container {
   background-image: url(../images/agency-img.jpg);

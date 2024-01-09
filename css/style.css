@@ -538,9 +538,13 @@ font-weight: bold;
           align-items: flex-start;
   text-align: left;
 }
-
+.agency_section .heading_container h1
+{
+font-size:2.3rem;
+}
 .agency_section .agency_container .box .detail-box p {
   margin-top: 20px;
+  font-size:1.5rem;
 }
 
 .agency_section .agency_container .box .detail-box a {

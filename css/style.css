@@ -266,10 +266,13 @@ font-weight: bold;
 }
 .portfolio_section h1 {
   color:#ffcf00;
+  font-size:2.3rem;
   }
 .portfolio_section span {
   color:#fff;
   }
+  .portfolio_section p{ 
+    font-size:1.5rem;
 .portfolio_section .portfolio_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -759,12 +762,18 @@ font-weight: bold;
 {
 color:#ffcf00;
 text-transform: uppercase;
+font-size:2.3rem;
+}
+.service-wd p
+{
+font-size:1.5rem;
 }
 .service-wd a
 {
 text-decoration: none;
   color:#ffcf00;
   font-weight: bold;
+  font-size:1.9rem;
 }
 .service-wd a:hover
 {

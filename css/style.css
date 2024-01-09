@@ -225,18 +225,19 @@ font-weight: bold;
   text-align:center;
   font-weight: !important;
 } */
-.maininfo h1
+.main-buy h1
 {
   color:#ffcf00
   font-size: 2rem;
 }
-.maininfo p
+.main-buy p
 {
   font-size: 1rem;
   }
-  .maininfo a
+  .main-buy a
   {
     font-size: 1rem;
+    }
 .main-buy h1
 {
   color:#ffcf00;
@@ -245,6 +246,7 @@ font-weight: bold;
 {
   background-color:#ffcf00;
   color:#000;
+  font-size:1rem;
 }
 .mbb :hover
 {
@@ -489,7 +491,7 @@ font-weight: bold;
 }
 
 .started_section .heading_container h1 {
-  font-weight: 700;
+  font-size:2rem;
   color:#000;
   text-align:center;
 }
@@ -499,6 +501,7 @@ font-weight: bold;
 .started_section .heading_container p
 {
   color:#000;
+  font-size:1rem;
 }
 
 .started_section .btn-box {
@@ -518,6 +521,7 @@ font-weight: bold;
   border: 1.5px solid #000000;
   border-radius: 5px;
   text-transform: uppercase;
+  font-size:1rem;
 }
 
 .started_section .btn-box a:hover {

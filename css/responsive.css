@@ -216,7 +216,13 @@
     margin-top: 0;
   }   
 }
-
+@media (min-width: 768px) {
+    .main-buy{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+}
 @media (min-width: 1024px) {
     .container {
         max-width: 1000px;

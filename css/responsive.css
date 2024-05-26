@@ -1,0 +1,344 @@
+/*max-width media queries */
+@media (max-width: 1440px) {
+    .portfolio_container {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+}
+@media (max-width: 1120px) {
+    .agency_section .agency_container .box {
+        width: 70%;
+    }
+    .portfolio_container {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+    }
+}
+@media (max-width: 992px) {
+  
+    .slider_section .detail-box {
+        width: 100%;
+        margin: 45px 0;
+    }
+
+    .slider_section .carousel-indicators li {
+        font-size: 3.5rem;
+    }
+
+    .agency_section .agency_container .box {
+        width: 85%;
+        padding: 90px 55px;
+    }
+}
+@media(max-width:970px){
+    .nav-item{
+        font-size: 1em;
+        padding-right: 10px;
+       
+    }
+}
+@media (max-width:953px){
+    .card-deck{
+        display: inline-block;
+    }
+    .card{
+        width:80%;
+    }
+
+}
+
+@media (max-width:815px){
+    .nav-item{
+        padding-right:0px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .toggle_btn{
+        margin-right: -350px;
+    }
+    .dropdown-menu.open{
+        display: block;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width:unset;
+    }
+    .hero_area {
+        height: auto;
+    }
+
+    .slider_section {
+        padding: 0 25px;
+    }
+
+    .slider_section .slider_container {
+        padding: 20px;
+    }
+
+    .slider_section .carousel-indicators {
+        right: -40px;
+    }
+
+    .slider_section .detail-box {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .slider_section .carousel_btn-box {
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .slider_section .detail-box a {
+        margin-bottom: 35px;
+    }
+
+    .portfolio_section .portfolio_container .box-1,
+    .portfolio_section .portfolio_container .box-2 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .started_section .heading_container {
+
+        text-align: center;
+        align-items: center;
+    }
+
+    .started_section .btn-box {
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .agency_section .agency_container {
+        padding: 75px 45px;
+    }
+
+    .agency_section .agency_container .box {
+        width: 100%;
+        padding: 75px 25px;
+    }
+
+    .client_section .box {
+        width: 100%;
+    }
+
+    .info_section .row>div {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .logo_container.layout_padding {
+
+        padding: 45px 0;
+    }
+    .mb-text{
+        line-height:2;
+        padding-left:10px;
+        padding-right:10px;
+    }
+}
+@media(max-width:692px){
+    .toggle_btn{
+        margin-right: -290px;
+    }
+}
+@media(max-width:600px){
+    .toggle_btn{
+        margin-right: -250px;
+    }
+}
+@media (max-width: 576px) {
+    .slider_section .carousel-indicators {
+        display: none;
+    }
+
+    .portfolio_section .portfolio_container {
+        margin: 45px 25px 0;
+    }
+
+    .agency_section .agency_container {
+        margin: 45px 0;
+        padding: 45px 15px;
+    }
+
+    .logo_section .logo_container {
+        margin: 55px 25px 0;
+    }
+
+    .info_section {
+        margin: 0 25px 25px;
+    }
+
+    .logo_container.layout_padding {
+
+        padding: 25px 0;
+
+    }
+
+}
+@media (max-width: 480px) {
+    .slider_section .detail-box h1 {
+        font-size: 3.5rem;
+    }
+    .toggle_btn{
+        margin-right: -200px;
+    }
+}
+@media (max-width:450px){
+    .navbar-brand{
+        margin-top: 10px;
+        display: block;
+        line-height: 120px;
+        width: 100%;
+    }
+    .toggle_btn{
+        margin-right: -200px;
+    }
+}
+
+@media (max-width:435px){
+    .toggle_btn{
+        margin-right: -140px;
+    }
+}
+
+@media (max-width: 406px) {
+    .navbar-brand img{
+        width:full-width;
+        margin: 0 1em;
+    }
+    .navbar-toggler{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        width: full-width;
+    }
+}
+
+@media (max-width: 376px) {
+    .slider_section .detail-box h1 {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width:353px){
+    .card-deck{
+        display: block;
+        width:90%;
+    }
+    .bbs{
+        display: flex;
+        width:auto;
+        justify-content: center;
+    }
+    .card{
+        
+    }
+}
+
+@media(max-width:346px){
+    .fcb{
+        width:200px;
+    }
+    .wdc{
+    }
+}
+
+@media(max-width:344px){
+    .toggle_btn{
+        margin-right: -120px;
+    }
+}
+
+@media(max-width:320px){
+    .servicebutton{
+        display: flex;
+        width:auto;
+        justify-content: center;
+        font-weight: normal;
+        text-wrap: wrap;
+
+    }
+}
+/* end of max-width  */
+
+
+/*start of min-width */
+@media (min-width:320px){
+    .navbar-brand img{
+        max-width:250px;
+        margin: 0 auto;
+    }
+    body{
+        margin:0;
+    }
+    .shc{
+        font-size:1.5rem;
+       text-align:center;
+     }
+     .started_section p
+{
+  font-size:1rem;
+  margin-bottom: 0;
+}
+.started_section .btn-box a {
+    display: inline-block;
+    padding: 14px 50px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size:1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }   
+}
+@media (min-width: 768px) {
+    .main-buy{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+}
+
+@media (min-width:769px){
+    .navlist-wrapper{
+        display: flex;
+    } 
+    .toggle_btn{
+        display:none;
+    }
+    .dropdown-menu{
+        display: none;
+    }
+
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1000px;
+    }
+    .service_section .img-container .img-box img {
+        width:400px;
+        height:400px;
+    }
+}
+    @media(min-width:1200) {
+        .container {
+        max-width: 1200px;
+    }
+    .service_section .img-container .img-box img {
+        width:400px;
+        height:400px;
+    }
+}
+/*end of min-width */
